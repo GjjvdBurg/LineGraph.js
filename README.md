@@ -41,6 +41,7 @@ and expects the following JSON data format:
 }
 ```
 
-Adding ``xmin, xmax, ymin``, and ``ymax`` is optional.
+Adding ``xmin, xmax, ymin``, and ``ymax`` is optional. The accompanying 
+[graph.scss](/graph.scss) adds the necessary styling.
 
 License: MIT. Created by [Gertjan van den Burg](https://gertjan.dev).

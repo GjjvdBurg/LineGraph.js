@@ -1,0 +1,41 @@
+.graph {
+	margin: 0 auto;
+	text-align: center;
+
+	.line, .line-show, .line-hide {
+		fill: none;
+		stroke-width: 1pt;
+		clip-path: url(#clip);
+	}
+
+	.line-show {
+		opacity: 1;
+	}
+
+	.line-hide {
+		opacity: 0.2;
+	}
+
+	rect {
+		fill: white;
+		opacity: 0;
+	}
+
+	.axis-label {
+		fill: #fff;
+		font-family: sans-serif;
+		font-size: 9pt;
+	}
+
+	.legend-line {
+		fill: none;
+		stroke-width: 1pt;
+	}
+
+	.legend-text {
+		fill: #fff;;
+		font-family: sans-serif;
+		font-size: 9pt;
+		text-anchor: middle;
+	}
+}
